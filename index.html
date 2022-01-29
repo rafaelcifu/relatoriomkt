@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados de MKT</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="header">
+        <h1>Relatório de resultados</h1>
+    </div>
+
+<div class="container-weeks">
+    <div class="container-week">
+        <h2>Semana 01</h2>
+        <input type="number" placeholder="Investimento" id="invest01" class="input-week">
+        <input type="number" placeholder="Número de Leads" id="lead01" class="input-week">
+        <p>CPA médio: 
+            <p id="WeekCPA01"></p>
+        </p>
+        <br>
+        <p>KPI: 
+            <p id="WeekKPI01"></p>
+        </p>
+    </div>
+
+    <div class="container-week">
+        <h2>Semana 02</h2>
+        <input type="number" placeholder="Investimento" id="invest02" class="input-week">
+        <input type="number" placeholder="Número de Leads" id="lead02" class="input-week">
+        <p>CPA médio:
+            <p id="WeekCPA02"></p>
+        </p>
+        <br>
+        <p>KPI: 
+            <p id="WeekKPI02"></p>
+        </p>
+    </div>  
+
+    <div class="container-week">
+        <h2>Semana 03</h2>
+        <input type="number" placeholder="Investimento" id="invest03" class="input-week">
+        <input type="number" placeholder="Número de Leads" id="lead03" class="input-week">
+        <p>CPA médio: 
+            <p id="WeekCPA03"></p>
+        </p>
+        <br>
+        <p>KPI: 
+            <p id="WeekKPI03"></p>
+        </p>
+    </div>
+
+    <div class="container-week">
+        <h2>Semana 04</h2>
+        <input type="number" placeholder="Investimento" id="invest04" class="input-week">
+        <input type="number" placeholder="Número de Leads" id="lead04" class="input-week">
+        <p>CPA médio: 
+            <p id="WeekCPA04"></p>
+        </p>
+        <br>
+        <p>KPI:  
+            <p id="WeekKPI04"></p>
+        </p>
+    </div>
+</div>
+
+    <div class="container-submit">
+            <input type="submit" id="submit" class="submit" value="Calcular">
+    </div>
+
+    <div class="container-month-title">
+        <h2>Resumo do mês</h2>
+    </div>
+
+    <div class="container-month-result">
+
+        <div class="container-month">
+             <p>Investimento total:&nbsp; 
+            <p id="resultInvest" class="month-result"></p>
+         </p>
+        </div>
+           
+        <div class="container-month">
+            <p>Leads total:&nbsp; 
+            <p id="resultLeads" class="month-result"></p>
+        </p>
+         </div>
+
+         <div class="container-month">
+            <p>CPA:&nbsp; 
+            <p id="ResultCPA" class="month-result"></p>
+        </p>
+        </div>
+
+        <div class="container-month">
+          <p>KPI:&nbsp;
+            <p id="ResultKPI" class="month-result"></p>
+        </p>
+     </div>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>

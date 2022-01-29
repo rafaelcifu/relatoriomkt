@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+div.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #435BA7;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #435BA7;
+    padding-bottom: 10px;
+}
+
+.container-month-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    display: inline;
+    padding-bottom: 2px;
+}
+
+.container-week {
+    background-color: whitesmoke;
+    padding: 20px 60px 50px 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.container-weeks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.input-week {
+    font-family: 'Poppins', sans-serif;
+    height: 50px;
+    width: 200px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #e1e1e1;
+    border-radius: 5px;
+}
+
+.container-week:hover {
+    background-color: rgb(236, 236, 236);
+}
+
+.submit {
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    border-radius: 8px;
+    color: #ffffff;
+    background: #435BA7;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background: #32468a;
+}
+
+.container-submit {
+    display: flex;
+    justify-content: center;
+}
+
+.container-month-result {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-month {
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 9px 0px #e3e3e3;
+    align-items: center;
+    margin: 20px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.month-result {
+    color: #435BA7;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .header {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+
+    .container-weeks {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .container-week {
+        margin-top: 1px;    
+    }
+
+    .input-week {
+    width: 60vw;
+    }
+
+    .container-month-result {
+        flex-direction: column;
+        margin-bottom: 15vh;
+    }
+
+    .container-month {
+        width: 80vw;
+        margin-bottom: 2px;
+    }
+
+    .submit {
+    width: 80vw;
+    height: 60px;
+    }
+}
